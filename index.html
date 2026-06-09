@@ -34,12 +34,44 @@
             margin-bottom: 40px;
         }
         
+        .header-logo-section {
+            margin-bottom: 30px;
+        }
+        
+        .header-logo {
+            max-width: 200px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            margin: 0 auto 20px;
+            display: block;
+        }
+        
         h1 {
             font-size: 2.8em;
             color: #ffffff;
             margin-bottom: 10px;
             font-weight: 700;
             letter-spacing: -0.5px;
+        }
+        
+        .roles {
+            font-size: 1.2em;
+            color: #e0e7ff;
+            margin-top: 15px;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .role-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
         
         .tagline {
@@ -216,14 +248,21 @@
 <body>
     <div class="container">
         <header>
+            <div class="header-logo-section">
+                <img src="InShot_20260609_201137247.jpg" alt="Game Logo" class="header-logo">
+            </div>
             <h1>ifkabout</h1>
             <p class="tagline">Moderator & Community Specialist</p>
+            <div class="roles">
+                <div class="role-badge">🎮 Game Moderator</div>
+                <div class="role-badge">💬 Discord Moderator</div>
+            </div>
             <p>Managing and protecting player communities in Roblox games</p>
         </header>
         
         <div class="content">
             <h2>About Me</h2>
-            <p>I specialize in managing and protecting player communities within specific Roblox games. Working directly within game servers, I enforce rules, investigate exploits, handle player reports, and maintain a positive gaming environment.</p>
+            <p>I specialize in managing and protecting player communities within specific Roblox games. Working directly within game servers, I enforce rules, investigate exploits, handle player reports, and foster a positive gaming environment.</p>
             <p>My focus is helping developers keep their games fair, fun, and safe for everyone.</p>
             
             <h2>What I Do</h2>
